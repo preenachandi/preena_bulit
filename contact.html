@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuiltTech</title>
+
+    <!--navbar-->
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css'>
+  <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js'></script>
+
+ 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg" id="nav_bar_page">
+    <div class="container">
+      <a class="navbar-brand" id="navbar-brand-page" href="index.html"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list"></i>
+
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-md-auto gap-2">
+          <li class="nav-item rounded">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item rounded">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown rounded">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services</a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown" id="nav_dropdown_page">
+              <li><a class="dropdown-item" href="construction.html">Construction</a></li>
+              <li><a class="dropdown-item" href="interior.html">Interior</a></li>
+              <li><a class="dropdown-item" href="#">Facades</a></li>
+              <li><a class="dropdown-item" href="#">Maintance Plans</a></li>
+            </ul>
+          </li>
+          <li class="nav-item rounded">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item rounded">
+            <a class="nav-link" href="clientele.html">Clientle</a>
+          </li>
+          <li class="nav-item rounded">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+          <li class="nav-item rounded">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--contact banner-->
+  <section class="contact_banner_section">
+    <div class="contact_banner">
+        <p>CONTACT</p>
+    </div>
+  </section>
+
+  <!--contact head section-->
+  <section class="contact_head_section">
+    <div class="container contact_head_container">
+        <p>Let us know your requirements, we’ll revert within 2 days.<br>
+            Don’t worry! We don’t spam!!!</p>
+    </div>
+  </section>
+  
+  <!--form section-->
+  <section class="form_section">
+    <div class="container form_container">
+        <div class="row">
+            <div class="col-md-6">
+                <p>OFFICE ADDRESS</p>
+                <div class="form_address">
+                    <p>BT Integrated Solutions Pvt. Ltd.<br>
+                        46/2299C, 2nd Floor, <br>
+                        Chakkaraparambu Road,<br>
+                        Near Holiday Inn,<br>
+                        Cochin, Vennala.</p>
+                </div>
+                <div class="email">
+                    <p><br><span>Email:</span><br>
+                        builttechcochin@gmail.com<br>
+                        jubin@builttech.in</p>
+                     
+                </div>
+                <div class="tel">
+                    <p><br><span>Tel:</span><br>
+                     <a href="tel:+91 9847698666">+91 9847698666</a><br>
+                     <a href="tel:+91 90720 99777">+91 90720 99777</a></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+<form name="contact_form" action="contact_action" method="post">
+    <div class="container form_container_controls">
+        <div class="name_div">
+            <input type="text" name="name" id="name" placeholder="   Name">
+        </div>
+        <div class="email_div">
+            <input type="email" name="email" id="email" placeholder="   Email">
+        </div>
+        <div class="number_div">
+            <input type="text" name="mobile" id="mobile" placeholder="   Mobile Number">
+        </div>
+        <div class="message_div">
+            <textarea name="message" id="message" placeholder="   Message" rows="7">                
+            </textarea>
+        </div>
+        <div class="submit_div">
+            <input type="submit" name="submit" id="submit" value="SEND">
+        </div>
+    </div>
+</form>
+               
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!--builttech map section-->
+  <section class="map_section">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d502952.25582165597!2d76.318776!3d9.990859!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x57db5eeedf3fe10a!2sBuiltTech(BT%20Integrated%20Solutions%20Pvt%20Ltd)!5e0!3m2!1sen!2sus!4v1669716525742!5m2!1sen!2sus" 
+    width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+</body>
+</html>
